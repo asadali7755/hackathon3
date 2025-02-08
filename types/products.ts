@@ -1,6 +1,7 @@
 import product from "@/sanity/schemaTypes/product";
 
 export interface  Product {
+    [x: string]: any;
     _id :string;
     name : string;
     _type : "product";
@@ -14,10 +15,6 @@ export interface  Product {
     };
     price : number;
     description? : string;
-    slug : {
-        _type : "slug"
-        current : "string";
-    };
     stockLevel : number
     
 

@@ -27,9 +27,9 @@ const Home=()=> {
           </div>
           <div className='w-[1400px] h-[28px] ml-[170px] mt-6  flex gap-7'>
           <Link href="/myaccount"><MdOutlineSupervisorAccount/></Link>
-         <Link href="/ shop "> <IoSearchOutline className="hover:scale-105" /></Link>
+         <Link href="/checkout"> <IoSearchOutline className="hover:scale-105" /></Link>
          <Link href="/contect"> <IoIosHeartEmpty className="hover:scale-105" /></Link>
-         <Link href="/checkout"> <AiOutlineShoppingCart className="hover:scale-105" /></Link>
+         <Link href="/cart"> <AiOutlineShoppingCart className="hover:scale-105" /></Link>
           </div>
    </div>
 

@@ -23,11 +23,11 @@ const Header = () => {
         <div className='w-[247px] h-[28px] ml-[170px] mt-6  flex gap-6'>
                <Link href="/myaccount"><MdOutlineSupervisorAccount className='hover:scale-105'/></Link>
 
-               <Link href="/"> <IoSearchOutline className='hover:scale-105' /></Link>
+               <Link href="/checkout"> <IoSearchOutline className='hover:scale-105' /></Link>
 
-               <Link href="/">  <IoIosHeartEmpty className='hover:scale-105' /></Link>
+               <Link href="/shop">  <IoIosHeartEmpty className='hover:scale-105' /></Link>
 
-               <Link href="/checkout"> <AiOutlineShoppingCart className="hover:scale-105" /></Link>
+               <Link href="/cart"> <AiOutlineShoppingCart className="hover:scale-105" /></Link>
         </div>
 
       </div>
